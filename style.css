@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: unset;
 }
 
 
@@ -67,9 +68,10 @@ button {
   border: 0px;
   border-radius: 5px;
   padding: 4px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
+
 
 .top-card {
   display: flex;
@@ -87,3 +89,106 @@ button {
   font-weight: 900;
   
 }
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.info h1 {
+  font-size: 26px;
+}
+
+
+.gallery {
+  align-self: center;
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  
+}
+
+.gallery li {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 8px;
+  text-align: center;
+  width: 160px;
+  font-size: 14px;
+}
+
+
+.placeholder {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882F6; 
+  border-radius: 20px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+em {
+    font-size: 24px;
+    font-weight: light;
+    width: 600px;
+    color: #1F2937;
+  }
+
+.quote h3 {
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.signup {
+ 
+  width: 700px; 
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  
+  background-color:  #3882F6;
+  color: white;
+  
+  display: flex;
+  padding: 30px;
+  padding-left: 80px; 
+  padding-right: 80px;
+  justify-content: space-between;
+}
+
+.signup-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: start;
+}
+
+.signup button {
+  border: 2px solid white; 
+  height: 30px;
+  align-self: center;
+  flex: initial;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+  font-size: 14px;
+}
+
