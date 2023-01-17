@@ -6,7 +6,7 @@ body {
 
 .header {
     height: 50px;
-    width: 800px;
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -27,15 +27,16 @@ body {
   display: flex;
   gap: 12px;
   margin: unset;
-  font-size: 16px;
+  font-size: 18px;
   color: #E5E7EB;
   align-items: center;
 }
 
 .centerpiece {
-  width: 800px;
+  width: 1000px;
   height: 400px;
   display: flex;
+  justify-content: space-between;
   gap: 12px;
 }
 
@@ -85,7 +86,7 @@ button {
 
 .hero1 {
   color: #E5E7EB;
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 900;
   
 }
@@ -100,7 +101,7 @@ button {
 }
 
 .info h1 {
-  font-size: 26px;
+  font-size: 36px;
 }
 
 
@@ -139,7 +140,7 @@ button {
 }
 
 em {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: light;
     width: 600px;
     color: #1F2937;
