@@ -48,7 +48,7 @@ body {
 
 h3 {
   color: rgb(187, 187, 187);
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .pholder {
@@ -65,7 +65,7 @@ button {
   background-color: #3882F6;
   color: white;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 20px;
   border: 0px;
   border-radius: 5px;
   padding: 4px;
@@ -89,6 +89,7 @@ button {
   color: #E5E7EB;
   font-size: 48px;
   font-weight: 900;
+  width: 150px;
   
 }
 
@@ -110,7 +111,7 @@ button {
   align-self: center;
   list-style-type: none;
   display: flex;
-  gap: 50px;
+  gap: 16px;
   
 }
 
@@ -126,10 +127,10 @@ button {
 
 
 .placeholder {
-  height: 150px;
-  width: 150px;
-  border: 3px solid #3882F6; 
-  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+  /* border: 3px solid #3882F6; 
+  border-radius: 20px; */
   display: flex;
 }
 
@@ -181,7 +182,7 @@ em {
 
 .signup button {
   border: 2px solid white; 
-  height: 30px;
+  height: 36px;
   align-self: center;
   flex: initial;
   
@@ -222,5 +223,9 @@ a.git-link {
 
 iframe#project-cards {
   width: 600px;
-  height: 600px;
+  height: 550px;
+}
+
+button#resume-link:hover {
+  filter: grayscale(50%);
 }

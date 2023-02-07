@@ -34,13 +34,14 @@ img#card-img {
   border: 3px solid #3882F6; 
   border-radius: 20px;
   display: flex;
+  opacity: 1;
   /* filter: blur(0px); */
 }
 
 img#card-img:hover {
 
-    filter: blur(2px);
-    transition: all 0.7s;
+    opacity: .5;
+    transition: all 0.1s;
 }
 
 button {
@@ -58,7 +59,6 @@ button {
 
 button:hover {
     filter: grayscale(50%);
-
 }
 
 article #info {
