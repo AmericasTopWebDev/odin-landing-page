@@ -82,6 +82,7 @@ button {
 
 .footer, .top-card {
   background-color: #1F2937;
+/*   background-color: red; */
 }
 
 .hero1 {
@@ -120,7 +121,7 @@ button {
   gap: 8px;
   text-align: center;
   width: 160px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 
@@ -199,6 +200,27 @@ a {
   color: black;
 }
 
-.placeholder img {
+/* .placeholder img {
 
+} */
+
+div .header {
+  background-color: darkgrey;
+  width: 100%;
+  padding-left: 40px;
+}
+
+img#greek {
+  margin: 30px;
+  border: 10px solid darkgoldenrod;
+  border-radius: 6px;
+  
+}
+a.git-link {
+  color: white;
+}
+
+iframe#project-cards {
+  width: 600px;
+  height: 600px;
 }

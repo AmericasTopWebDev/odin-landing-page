@@ -5,36 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="project_cards/project_cards.css"> -->
+    <title>Lucas Harrison</title>
 </head>
 <body>
-    <script>playGame();</script>
+    
     <div class="top-card">
         <div class="header">
-            <div class="logo">Header Logo</div>
+            <div class="logo">Lucas Harrison</div>
             <ul>
-                <li class="hero2"> header link one </li>
+                <!-- <li class="hero2"> header link one </li>
                 <li class="hero2"> header link two </li>
-                <li class="hero2"> header link three </li>
+                <li class="hero2"> header link three </li> -->
             </ul>
         </div>
 
         <div class="centerpiece">
             <div class="text-stack">
-                <h1 class="hero1" style="margin-bottom: unset;"> Rock Paper Scissors Is Awesome!</h1>
-                <h3>Hey!!! press Ctrl+Shift+C and navigate to console to play ro sham bo! 
-                    in the console, type playGame() and hit enter
+                <h1 class="hero1" style="margin-bottom: unset;"> Welcome to my web</h1>
+                <h3> As I learn web development, my progress will be displayed on this site!
                 </h3>
-                <button>Do it now! </button>
+                <button> Cool ! </button>
             </div>
-            <h3 class="pholder">this is a placeholder for an image</h3> 
+            <!-- <h3 class="pholder">this is a placeholder for an image</h3>  -->
+            <img id="greek" src="photos/frowning.jpg">
         </div>
     </div>
 
     <div class="info">
-        <h1>Checkout My Other Projects</h1>
+        <h1 style="margin-bottom: 12px;">Checkout My Other Projects:</h1>
+        <iframe id="project-cards" frameBorder="0" 
+        scrolling="no" src="project_cards/project_cards.html"></iframe>
         <ul class="gallery">
-            <li> <a href="https://americastopwebdev.github.io/Tetris/"> <img class = "placeholder" src="tetris.png"> 
+            <li> <a href="https://americastopwebdev.github.io/Tetris/"> <img class = "placeholder" src="photos/tetris.png"> 
                 Basic Tetris In JS</a></li>
             <li> <div class="placeholder"></div> 
                  this is some subtext under an illustration or image </li>
@@ -68,8 +71,9 @@
     </div>
 
     <div class="footer">
-        Copyright © The Odin Project 2021
+        <a class="git-link" href="https://github.com/AmericasTopWebDev"> My Personal GitHub Account </a>
     </div>
 
+    <script src="project_cards/app.js"></script>
 </body>
 </html>
